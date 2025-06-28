@@ -1,0 +1,102 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f4faff;
+  color: #1a2b3c;
+  margin: 0;
+  padding: 1.5rem;
+}
+
+a {
+  color: #3c8dbc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  background-color: #3c8dbc;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.button:hover {
+  background-color: #2a6e9c;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container.px800 {
+  max-width: 800px;
+}
+
+.container.px960 {
+  max-width: 960px;
+}
+
+.matte {
+  background: linear-gradient(to bottom, rgb(95.0483870968, 163.9637096774, 203.9516129032) 0%, #3c8dbc 100%);
+  color: white;
+  border: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgimg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bgimg-tile {
+  background-repeat: repeat;
+  background-position: top left;
+  background-attachment: scroll;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  color: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+  .glass {
+    background: rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.4);
+    color: white;
+  }
+}
+.pill {
+  border-radius: 100px;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/*# sourceMappingURL=nugget.css.map */

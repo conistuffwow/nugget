@@ -1,0 +1,18 @@
+@use 'variables' as *;
+
+body {
+    font-family: $font;
+    background: $bg;
+    color: $text;
+    margin: 0;
+    padding: 1.5rem;
+}
+
+a {
+    color: $accent;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,14 @@
+@use '../variables' as *;
+
+.bgimg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bgimg-tile {
+    background-repeat: repeat;
+    background-position: top left;
+    background-attachment: scroll;
+}

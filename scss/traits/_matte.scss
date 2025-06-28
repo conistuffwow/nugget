@@ -1,0 +1,10 @@
+@use '../variables' as *;
+
+.matte {
+    background: linear-gradient(
+        to bottom,
+        lighten($accent, 10%) 0%, $accent 100%
+    );
+    color: white;
+    border: none;
+}
